@@ -8,6 +8,7 @@ public class WorldIDSelect : MonoBehaviour
 
     public void AssignWorldID(int ID)
     {
-        ID = worldID;
+        worldID = ID;
+        Debug.Log("World ID set: " + worldID);
     }
 }
